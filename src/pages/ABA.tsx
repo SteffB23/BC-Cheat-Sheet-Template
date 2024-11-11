@@ -79,6 +79,10 @@ export default function ABA() {
     {
       title: "Chaining",
       content: "Teaching a sequence of related behaviors that together complete a more complex behavior."
+    },
+    {
+      title: "Extinction Burst",
+      content: "A temporary increase in the frequency or intensity of a behavior when reinforcement is initially removed, before the behavior eventually decreases."
     }
   ];
 

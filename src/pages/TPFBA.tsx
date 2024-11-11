@@ -49,44 +49,44 @@ export default function TPFBA() {
 
   const treatmentPlanning: ResourceItem[] = [
     {
-      title: "Client Information",
-      content: "Essential demographic information, including client's name, age, diagnosis, and relevant medical history. This section should also include parent/guardian information and emergency contacts."
+      title: "Target Behavior Section",
+      content: "Essential high-risk behaviors impeding overall quality of life. General broad terms will not assist with getting the client services such as Poor impulse control, poor social skills, or inattention. Generally there are 3 targets in this section. 2 may put approval in danger and is often difficult to justify when requesting BC-20 per month and RBT-120 per month"
     },
     {
-      title: "Problem Identification",
-      content: "Clear description of target behaviors, including operational definitions, current frequency, intensity, and duration of behaviors."
+      title: "Reduction Goals",
+      content: "These goals are designated specifically for the reducing of the high-risk or targeted behaviors. For example, tracking the frequency of physical aggression, elopement, self-injurious with reduction in mind."
     },
     {
-      title: "Goals and Objectives",
-      content: "SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) for each target behavior, including short-term and long-term objectives."
+      title: "Replacement Goals",
+      content: "Goals that are Specific, Measurable, Achievable, Relevant, Time-bound for each target behavior, including short-term and long-term objectives. What are you going to replace the target behavior with?"
     },
     {
-      title: "Intervention Strategies",
-      content: "Detailed description of evidence-based interventions selected for each target behavior, including rationale for selection."
+      title: "Skill Aquisition goals",
+      content: "Goals that are Specific, Measurable, Achievable, Relevant, Time-bound for each target behavior, including short-term and long-term objectives. What are you going to replace the target behavior with?."
     },
     {
-      title: "Data Collection Methods",
-      content: "Specific measurement procedures, including type of data collection, frequency of measurement, and responsible parties."
+      title: "Assessment Goals",
+      content: "Goals that are Specific, Measurable, Achievable, Relevant, Time-bound based off the assessment you used. VB-MAPP has domains that require demonstration, Socially Savvy has domains of socially related skills that can also be achievable as well as AFLS - Assessment fo Functional Living Skills. In this section don't forget to score and paste the relevant scoring sheets onto the treatment plan in the assessment section. "
     },
     {
-      title: "Progress Monitoring",
-      content: "Schedule for reviewing progress, criteria for success, and procedures for modifying the plan based on data."
+      title: "Group Goals",
+      content: "Group Social Goals that are Specific, Measurable, Achievable, Relevant, Time-bound for areas of social deficits, including short-term and long-term objectives. What are you going to work on while the client is in a group social setting?"
     },
     {
-      title: "Crisis Plan",
-      content: "Procedures for managing crisis situations, including emergency contacts and specific steps for various scenarios."
+      title: "Measurable & Acheivable STOs & LTOs for Graphing",
+      content: "Objectives need a met date. They cannot be tracked for 6 months and not have any indication that the client has met or exceeded the expectations. The best practice is using the graphs to determine when the objectives have been met and indicating those dates in the required fields"
     },
     {
-      title: "Generalization Strategy",
-      content: "Plans for promoting skill generalization across settings, people, and situations."
+      title: "Interventions",
+      content: "These set of interventions go right below the STOS and LTOS of each goal. It is outlined in a 2x2 grid that lists interventions and who will be responsible for the interventions - BC & RBT. Refer to Interventions page"
     },
     {
-      title: "Maintenance Plan",
-      content: "Strategies for maintaining achieved goals and preventing regression, including follow-up schedule."
+      title: "Family Training Goals",
+      content: "Strategies for skills transfer & generalization in the home environment. Remeber that 2 sessions per month with family to facilitate. These goals can be simple for caregivers such as - Caregiver will use reinforcement techniques 3x per day - ."
     },
     {
-      title: "Discharge Criteria",
-      content: "Specific criteria for reducing or terminating services, including transition planning."
+      title: "STO and LTO Format for Measurability",
+      content: "STO1 - Client will do something 3xs per day across 3 consecutive sessions. STO2 - Client will do something 3xs per day across 5 consecutive sessions. STO 3 - Client will do something 5xs per day across 3 consecutive sessions. LTO - Client will do something 5xs per day across 5 consecutive sessions."
     }
   ];
 
@@ -148,7 +148,7 @@ export default function TPFBA() {
     },
     {
       title: "Elopement",
-      content: "Leaving designated areas without permission or supervision, potentially placing oneself in danger."
+      content: "Leaving designated areas without permission or supervision, potentially placing oneself in danger. Also, running to nearby exits to leave the area/vicinity or gradually decreasing proximity within the designated area/group/table and some instances of crawling under tables or standing behind walls to decrease visibility ."
     },
     {
       title: "Stereotypy",
@@ -173,7 +173,36 @@ export default function TPFBA() {
     {
       title: "Social Withdrawal",
       content: "Avoiding social interactions, refusing to participate in group activities, or isolating oneself from others."
-    }
+    },
+    {
+      title: "Task Refusal",
+      content: "Instances of verbalizing “no” when given tasks or instructions, pushing away or physically blocking materials/items necessary for the completion of tasks, engaging in off-task behaviors (e.g., staring at the wall, commenting on the environment), or seeking access to restricted items, or refusing to move or moving in an opposite direction."
+    },
+    {
+      title: "Add New Typography Here 2",
+      content: "Add info here."
+    },
+    {
+      title: "Add New Typography Here 3",
+      content: "Add info here."
+    },
+    {
+      title: "Add New Typography Here 4",
+      content: "Add info here."
+    },
+    {
+      title: "Add New Typography Here 5",
+      content: "Add info here."
+    },
+    {
+      title: "Add New Typography Here 6",
+      content: "Add info here."
+    },
+    {
+      title: "Add New Typography Here 7",
+      content: "Add info here."
+    },
+    
   ];
 
   const Section = ({ title, subtitle, items }: { title: string; subtitle: string; items: ResourceItem[] }) => (
